@@ -4,8 +4,10 @@ class Person {
   }
 
   sayMyName() {
-    return `My name is ${this.name}`;
+    return `Hello My name is ${this.name}`;
   }
 }
 
 module.exports = Person;
+
+// Pode exportar vários modulos com objeto {}
