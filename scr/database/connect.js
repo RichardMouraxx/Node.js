@@ -2,6 +2,7 @@
 
 const mongoose = require("mongoose");
 
+//Criar uma constante sempre com promise (ASYNC/AWAIT),  colar o link do banco de dados, depois retornar um callback de erro
 const connecctToDatabase = async () => {
   await mongoose.connect(
     `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cursonodedicasparadevs.sncd0jg.mongodb.net/?retryWrites=true&w=majority`,

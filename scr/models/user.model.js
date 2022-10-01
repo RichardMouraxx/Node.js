@@ -1,4 +1,4 @@
-//Modelo do banco de dados (esqueleto)
+//Modelo do banco de dados (esqueleto/esquema)
 
 const mongoose = require("mongoose");
 
